@@ -1,0 +1,127 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8bc550fd-1ce6-4850-ba8e-1a9ae74e41e6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GETRECOMMENDATIONS</ID>
+  <Name>GETRECOMMENDATIONS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ADM_Data_Base</DataSourceID>
+  <Schema>
+    <xs:schema id="GETRECOMMENDATIONS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="GETRECOMMENDATIONS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4b7edb93-4ced-4160-8ef9-df47d106f92e">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Customers_Products" msprop:design-time-name="95bbb774-d5ab-4367-bd0f-afa90ee944b6" msprop:DbTableName="Customers_Products" msprop:FriendlyName="Customers_Products" msprop:DbSchemaName="dbo" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Marital_x0020_Status" msprop:design-time-name="032761c2-27a9-4411-a042-81ca4aa61ad1" msprop:DbColumnName="Marital Status" msprop:FriendlyName="Marital Status">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gender" msprop:design-time-name="56494083-3d73-41ed-80a0-9761fdb637ef" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Income" msprop:design-time-name="13b0422c-9ee0-42f3-974e-51e3af30fa29" msprop:DbColumnName="Income" msprop:FriendlyName="Income" type="xs:double" />
+                  <xs:element name="Children" msprop:design-time-name="950236ac-5d84-47eb-84d5-11bb5d52bbde" msprop:DbColumnName="Children" msprop:FriendlyName="Children" type="xs:double" />
+                  <xs:element name="Education" msprop:design-time-name="01caf473-6ca1-422b-9058-2cbfc3289cd1" msprop:DbColumnName="Education" msprop:FriendlyName="Education">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Occupation" msprop:design-time-name="1bbebd2b-576c-417f-8230-4d701405e5bd" msprop:DbColumnName="Occupation" msprop:FriendlyName="Occupation">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Home_x0020_Owner" msprop:design-time-name="15da4dd6-4a8f-417a-852a-6e67fd553bd1" msprop:DbColumnName="Home Owner" msprop:FriendlyName="Home Owner">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cars" msprop:design-time-name="9d8e56dd-84cb-4ad5-a633-20e2ebece67d" msprop:DbColumnName="Cars" msprop:FriendlyName="Cars" type="xs:double" />
+                  <xs:element name="Commute_x0020_Distance" msprop:design-time-name="7c995871-aea0-4121-b339-e326ced5e257" msprop:DbColumnName="Commute Distance" msprop:FriendlyName="Commute Distance">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Region" msprop:design-time-name="25848935-dbb3-4dc9-a892-cf0db5a6df18" msprop:DbColumnName="Region" msprop:FriendlyName="Region">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Age" msprop:design-time-name="35fabdab-74e1-49b0-a464-762c56865c69" msprop:DbColumnName="Age" msprop:FriendlyName="Age" type="xs:double" />
+                  <xs:element name="OrderNumber" msprop:design-time-name="abe0e850-faaf-4417-990e-39ac30b99e48" msprop:DbColumnName="OrderNumber" msprop:FriendlyName="OrderNumber">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Product" msprop:design-time-name="5840d419-69bc-4c3d-90eb-637f0dd36a23" msprop:DbColumnName="Product" msprop:FriendlyName="Product">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <GETRECOMMENDATIONS xmlns="" />
+  </Schema>
+</DataSourceView>

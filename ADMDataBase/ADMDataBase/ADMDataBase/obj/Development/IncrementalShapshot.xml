@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ADMDataBase</Database>
+    <Server>WS\SQLEXPRESS</Server>
+    <ConnectionString>Data Source=WS\SQLEXPRESS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Z4/vr5dQHFg5/suRmWIHSa4Mxzo=12/09/2019 11:10:22 AM12/09/2019 10:41:14 AM</TimeStamp>
+        <ID>
+          <String>ADM_Data_Base</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ExCUocAgs75G/gOvUQZUtJf9iHE=12/12/2019 9:58:24 AM12/09/2019 10:43:51 AM</TimeStamp>
+        <ID>
+          <String>HEWILLBUYDSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>vqT/zhQ+RovQEJz5kxjFWm4ziZM=12/10/2019 1:38:59 PM12/10/2019 1:37:32 PM</TimeStamp>
+        <ID>
+          <String>BOUGHTTOGETHER</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>gvVe0DCLjaDAOSUQukAvrR7attE=12/11/2019 11:33:06 AM12/11/2019 11:33:06 AM</TimeStamp>
+        <ID>
+          <String>CLASSIFYCUSTOMER</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>lc/DYsPbpicvn+h9y9RcNsWZe9g=12/11/2019 12:23:36 PM12/11/2019 12:23:36 PM</TimeStamp>
+        <ID>
+          <String>GETRECOMMENDATIONS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ctAqj6oIPq46wOi2mjDDt3Tgz1o=12/11/2019 4:09:55 PM12/11/2019 4:09:55 PM</TimeStamp>
+        <ID>
+          <String>WILLBE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>VoTdWkWEciiCr4xpODghLNIZWg0=12/09/2019 11:23:52 AM12/09/2019 10:55:51 AM</TimeStamp>
+        <ID>
+          <String>BIKECOBMS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>uCxBniTKlGhHzCqdEX9W1j3K0uU=12/10/2019 4:10:32 PM12/10/2019 2:02:17 PM</TimeStamp>
+        <ID>
+          <String>BIKECOAITEMSMS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>J5ciGj3lRUZauItueAF31P9uGKo=12/11/2019 11:44:41 AM12/11/2019 11:41:35 AM</TimeStamp>
+        <ID>
+          <String>BIKECOCCMS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>y40jxv8vliuilSPTEB/IHV02Q/8=12/11/2019 2:14:08 PM12/11/2019 12:28:37 PM</TimeStamp>
+        <ID>
+          <String>BIKECOGRMS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>32AHqv+58PC/unYo4bcMK7EaMcs=12/11/2019 4:58:07 PM12/11/2019 4:58:07 PM</TimeStamp>
+        <ID>
+          <String>BIKECOTSMS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>vE4xWPXsMVEbudBoL1aOWWhk6LI=12/09/2019 10:38:01 AM12/09/2019 10:38:00 AM</TimeStamp>
+      <ID>
+        <String>ADMDataBase</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-12-12T07:58:34.35Z</LastDeployed>
+</DeploymentSnapshot>
